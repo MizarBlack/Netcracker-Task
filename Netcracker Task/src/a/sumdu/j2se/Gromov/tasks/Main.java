@@ -17,8 +17,6 @@ public class Main implements ListTypes {
         list.printTaskList();
         System.out.println(list.size());
 
-        Arrays[] array_1 = new Arrays[10];
-        Arrays.stream(array_1);
         ListType typeArray = ListType.ARRAY;
         TaskListFactory taskListFactoryArray = new TaskListFactory();
         AbstractTaskList array = taskListFactoryArray.createTaskList(typeArray);
